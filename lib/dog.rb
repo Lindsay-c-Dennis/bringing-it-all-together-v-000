@@ -22,4 +22,7 @@ class Dog
     DB[:conn].execute(sql)
   end
   
+  def save 
+    
+  
 end 
