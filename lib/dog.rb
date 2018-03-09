@@ -73,4 +73,6 @@ class Dog
     end
     dog
   end
+  
+  def update 
 end 
