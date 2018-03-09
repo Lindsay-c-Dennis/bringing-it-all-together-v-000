@@ -38,9 +38,10 @@ class Dog
   end
   
   def self.new_from_db(row)
-    if id = row[0]
+    id = row[0]
     name = row[1]
     breed = row[2]
-    self.new(id, name, breed)
+    new_dog = self.new(id, name, breed)
+    new_dog
   end
 end 
